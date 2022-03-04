@@ -24,15 +24,16 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    // Number of images to generate
+    growEditionSizeTo: 20,
+    // Ordered from bottom layer to top layer
     layersOrder: [
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "outline" },
+      { name: "skin" },
+      { name: "eyes" },
+      { name: "facialhair" },
+      { name: "hair" },
+      { name: "glasses" },
     ],
   },
 ];
@@ -78,14 +79,16 @@ const background = {
   default: "#000000",
 };
 
-const extraMetadata = {};
+const extraMetadata = {
+  creator: "Toby Scott"
+};
 
 const rarityDelimiter = "#";
 
 const uniqueDnaTorrance = 10000;
 
 const preview = {
-  thumbPerRow: 5,
+  thumbPerRow: 10,
   thumbWidth: 50,
   imageRatio: format.height / format.width,
   imageName: "preview.png",
