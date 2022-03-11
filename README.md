@@ -1,4 +1,4 @@
-# CryptoDudes
+# Whatahead NFT Collection
 
 Inspired by [CryptoPunks](https://www.larvalabs.com/cryptopunks) annd forked from https://github.com/HashLips/hashlips_art_engine
 
