@@ -32,6 +32,8 @@ const layerConfigurations = [
       { name: "skin" },
       { name: "lips" },
       { name: "eyes" },
+      { name: "eyesiris" },
+
       { name: "facialhair" },
       { name: "hair" },
       { name: "glasses" },
