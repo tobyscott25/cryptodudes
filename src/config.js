@@ -28,8 +28,9 @@ const layerConfigurations = [
     growEditionSizeTo: 20,
     // Ordered from bottom layer to top layer
     layersOrder: [
-      { name: "outline" },
+
       { name: "skin" },
+      { name: "lips" },
       { name: "eyes" },
       { name: "facialhair" },
       { name: "hair" },
