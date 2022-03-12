@@ -25,7 +25,7 @@ const solanaMetadata = {
 const layerConfigurations = [
   {
     // Number of images to generate
-    growEditionSizeTo: 20,
+    growEditionSizeTo: 200,
     // Ordered from bottom layer to top layer
     layersOrder: [
 
