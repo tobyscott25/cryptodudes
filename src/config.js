@@ -78,7 +78,7 @@ const pixelFormat = {
 };
 
 const background = {
-  generate: false,
+  generate: true,
   brightness: "80%",
   static: false,
   default: "#000000",
